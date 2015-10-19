@@ -1,2 +1,7 @@
 %h2
   Hello World!
+%p
+  This is the only app returns a public holiday and a day of the week.
+%p method    path        params                              return
+%p GET       /holiday    null                                {"holiday":false,"wday":1}     [Return the status of the day.]
+%p POST      /holiday    {"year":2015,"month":10,"day":19}   {"holiday":false,"wday":1}     [It returns the status of the specified date.]
